@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Anton|Dosis:400,800" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col">
+          <h1 class="align-middle text-center text-lg-left">Aprendiendo Bootstrap 4</h1>
+          <p class="display-2 text-center text-lg-left">Aprende Bootstrap 4, el Framework Responsive HTML5 CSS3 y JS</p>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <h2 class="lecture-title">Collapse / Accordion</h2>
+
+  <main class="container">
+    <div class="row">
+      <div class="col-8">
+        <div id="servicios">
+          <div class="card">
+            <div class="card-header" id="servicio1">
+              <h2 class="mb-0">
+                <button class="btn btn-link" data-toggle="collapse" data-target="#descripcion1" aria-expanded="true"
+                  aria-controls="descripcion1">
+                  Desarrollo Web
+                </button>
+              </h2>
+            </div>
+            <div class="collapse show" id="descripcion1" aria-labelledby="servicio1" data-parent="#servicios">
+              <div class="card-body">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius excepturi aliquam tenetur eligendi magnam?
+                Quam, asperiores. Dolores, tempora! Tempore dolore voluptas pariatur illo dolorem ea iure aliquid vitae
+                illum ex.
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="servicio2">
+              <h2 class="mb-0">
+                <button class="btn btn-link" data-toggle="collapse" data-target="#descripcion2" aria-expanded="false"
+                  aria-controls="descripcion2">
+                  Aplicaciones Móviles
+                </button>
+              </h2>
+            </div>
+            <div class="collapse" id="descripcion2" aria-labelledby="servicio2" data-parent="#servicios">
+              <div class="card-body">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius excepturi aliquam tenetur eligendi magnam?
+                Quam, asperiores. Dolores, tempora! Tempore dolore voluptas pariatur illo dolorem ea iure aliquid vitae
+                illum ex.
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="servicio3">
+              <h2 class="mb-0">
+                <button class="btn btn-link" data-toggle="collapse" data-target="#descripcion3" aria-expanded="false"
+                  aria-controls="descripcion3">
+                  Tiendas Virtuales
+                </button>
+              </h2>
+            </div>
+            <div class="collapse" id="descripcion3" aria-labelledby="servicio3" data-parent="#servicios">
+              <div class="card-body">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius excepturi aliquam tenetur eligendi magnam?
+                Quam, asperiores. Dolores, tempora! Tempore dolore voluptas pariatur illo dolorem ea iure aliquid vitae
+                illum ex.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+
+
+  <script src="js/jquery.slim.js"></script>
+  <script src="js/tether.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/scripts.js"></script>
+</body>
+
+</html>
